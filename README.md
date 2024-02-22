@@ -7,7 +7,7 @@
     <h3>[ESP] Esta es mi versión de SocialBar inspirada en Linktree.</h3>
 </div>
 
-![SocialBar](https://imgur.com/cfmEZOG)
+![SocialBar](https://i.imgur.com/Rk93z00.png)
 
 ---
 

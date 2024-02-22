@@ -1,70 +1,153 @@
-# Getting Started with Create React App
+<h1 align="center">
+    SocialBar V1 - Created by MAHG
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+    <h3>[ENG] This is my version of SocialBar inspired by Linktree.</h3>
+    <h3>[ESP] Esta es mi versión de SocialBar inspirada en Linktree.</h3>
+</div>
 
-## Available Scripts
+![SocialBar](https://imgur.com/cfmEZOG)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚨 About Project / Sobre El Proyecto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p>[ENG] Developed in React, using TailwindCSS styles and CSS styles, this is a version to my own taste where the social networks I use the most are included, in addition, the most popular social networks in case it is to your liking.</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p>[ESP] Desarrollado en React, utilizando estilos de TailwindCSS y estilos propios de CSS, esta es una versión a mi propio gusto en donde están las redes sociales que más utilizo incluido además, las redes sociales más populares por si es de tu gusto.</p>
 
-### `npm test`
+## 📌 How to Use / Cómo usar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>[ENG] This project is free to use for anyone who wants to make their own SocialBar, that's why this project is open source (with respective attributions).</p>
 
-### `npm run build`
+<p>It is important to highlight that the footer of this project must remain unchanged, because that is where my personal site and the main repository are located, it is possible to modify it to add your own name next to mine and modify the footer to add any other link you wish to add, but without deleting the existing one. </p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>[ESP] Este proyecto es libre de uso para cualquiera que desee realizar su propia SocialBar, es por ello que este proyecto es de código abierto. **(Con respectivas atribuciones)**</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p>Importante resaltar que deberá permanecer el footer de este proyecto inalterado, pues ahí se localiza mi sitio personal y el repositorio principal, es posible modificar el mismo para añadir tu propio nombre junto al mío y modificar el footer para añadir cualquier otro link que usted desee añadir, pero sin eliminar lo existente.</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💡 TL;DR
 
-### `npm run eject`
+<p>[ENG] Yes, you can make your own version by fork, as long as you leave the relevant links to this project.</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p>[ESP] Resumen, puedes realizar tu propia versión mediante fork, siempre y cuando dejes los enlaces pertinentes a este proyecto.</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠 Installation & Set Up
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Initializing the project.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+    npx create-react-app my-app
+    cd my-app
+    npm start
+```
 
-## Learn More
+2. Install dependencies.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+    npm install -D tailwindcss
+    npx tailwindcss init
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+And
 
-### Code Splitting
+```
+    npm i --save @fortawesome/fontawesome-svg-core
+    npm i --save @fortawesome/free-solid-svg-icons
+    npm i --save @fortawesome/free-regular-svg-icons
+    npm i --save @fortawesome/free-brands-svg-icons
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚀 Building.
 
-### Analyzing the Bundle Size
+1. Generate a full static production build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+    npm run build
+```
 
-### Making a Progressive Web App
+2. Testing or preview
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+    npm start
+```
 
-### Advanced Configuration
+<h1 align="center">
+    SocialBar V1 - Created by MAHG
+</h1>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<div align="center">
+    <h3>[ENG] This is my version of SocialBar inspired by Linktree.</h3>
+    <h3>[ESP] Esta es mi versión de SocialBar inspirada en Linktree.</h3>
+</div>
 
-### Deployment
+![SocialBar](https://i.imgur.com/Rk93z00.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🚨 About Project / Sobre El Proyecto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>[ENG] Developed in React, using TailwindCSS styles and CSS styles, this is a version to my own taste where the social networks I use the most are included, in addition, the most popular social networks in case it is to your liking.</p>
+
+<p>[ESP] Desarrollado en React, utilizando estilos de TailwindCSS y estilos propios de CSS, esta es una versión a mi propio gusto en donde están las redes sociales que más utilizo incluido además, las redes sociales más populares por si es de tu gusto.</p>
+
+## 📌 How to Use / Cómo usar
+
+<p>[ENG] This project is free to use for anyone who wants to make their own SocialBar, that's why this project is open source (with respective attributions).</p>
+
+<p>It is important to highlight that the footer of this project must remain unchanged, because that is where my personal site and the main repository are located, it is possible to modify it to add your own name next to mine and modify the footer to add any other link you wish to add, but without deleting the existing one. </p>
+
+<p>If you want to add new social networks, modify the icons or simply add your networks. You must do it from the components/social folder, in case of adding one you must add the referenced one in the Home.jsx document, as well as add the styles in App.css and the corresponding attribute in its components page. </p>
+
+<p>[ESP] Este proyecto es libre de uso para cualquiera que desee realizar su propia SocialBar, es por ello que este proyecto es de código abierto. **(Con respectivas atribuciones)**</p>
+
+<p>Importante resaltar que deberá permanecer el footer de este proyecto inalterado, pues ahí se localiza mi sitio personal y el repositorio principal, es posible modificar el mismo para añadir tu propio nombre junto al mío y modificar el footer para añadir cualquier otro link que usted desee añadir, pero sin eliminar lo existente.</p>
+
+<p>Si deseas añadir nuevas redes sociales, modificar los iconos o simplemente añadir tus redes. Debes hacerlo desde la carpeta components/social, en caso de añadir uno deberás agregar el referenciado en el documento Home.jsx, así como añadir los estilos en App.css y el atributo correspondiente en su página de componentes. </p>
+
+## 💡 TL;DR
+
+<p>[ENG] Yes, you can make your own version by fork, as long as you leave the relevant links to this project.</p>
+
+<p>[ESP] Resumen, puedes realizar tu propia versión mediante fork, siempre y cuando dejes los enlaces pertinentes a este proyecto.</p>
+
+## 🛠 Installation & Set Up
+
+1. Initializing the project.
+
+```
+    npx create-react-app my-app
+    cd my-app
+    npm start
+```
+
+2. Install dependencies.
+
+```
+    npm install -D tailwindcss
+    npx tailwindcss init
+```
+
+And
+
+```
+    npm i --save @fortawesome/fontawesome-svg-core
+    npm i --save @fortawesome/free-solid-svg-icons
+    npm i --save @fortawesome/free-regular-svg-icons
+    npm i --save @fortawesome/free-brands-svg-icons
+```
+
+## 🚀 Building.
+
+1. Generate a full static production build
+
+```
+    npm run build
+```
+
+2. Testing or preview
+
+```
+    npm start
+```

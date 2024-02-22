@@ -1,38 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --facebook-color: #aac6e4;
+    --twitter-color: #a3d8f0;
+    --instagram-color: #f196af;
+    --tiktok-color: #fab1b5; 
+    --discord-color: #c9c4e5;
+    --linkedin-color: #a8cde9;
+    --github-color: #b0b5bd;
+    --youtube-color: #ff8080;
+    --twitch-color: #b18ab4;
+    --steam-color: #8498af;
+    --letterbox-color: #657181;
+    --goodreads-color: #e9e5cd;
+    --storygraph-color: #969494;   
+}
+
 .App {
-  text-align: center;
+    background: rgb(72,57,148);
+    background: linear-gradient(207deg, rgba(72,57,148,1) 0%, rgba(73,83,162,1) 24%, rgba(75,122,184,1) 72%, rgba(76,142,195,1) 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+    font-size: 1.5rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bar-text{
+    font-size: 1rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}     
+
+.bar {
+    transform: scale(1);
+    transition: transform 0.3s;
+}   
+
+.bar:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.facebook, .twitter, .instagram, .tiktok, .discord, .linkedin, .github, .youtube, .twitch, .steam, .letterbox, .goodreads, .storygraph {
+    background-color: white;
+    transition: ease-out 0.3s;
+
 }
 
-.App-link {
-  color: #61dafb;
+.facebook:hover {
+    background-color: var(--facebook-color);
+    transition: ease-out 0.3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.twitter:hover {
+    background-color: var(--twitter-color);
+    transition: ease-out 0.3s;
+}
+
+.instagram:hover {
+    background-color: var(--instagram-color);
+    transition: ease-out 0.3s;
+}
+
+.tiktok:hover {
+    background-color: var(--tiktok-color);
+    transition: ease-out 0.3s;
+}
+
+.discord:hover {
+    background-color: var(--discord-color);
+    transition: ease-out 0.3s;
+}
+
+.linkedin:hover {
+    background-color: var(--linkedin-color);
+    transition: ease-out 0.3s;
+}
+
+.github:hover {
+    background-color: var(--github-color);
+    transition: ease-out 0.3s;
+}
+
+.youtube:hover {
+    background-color: var(--youtube-color);
+    transition: ease-out 0.3s;
+}
+
+.twitch:hover {
+    background-color: var(--twitch-color);
+    transition: ease-out 0.3s;
+}
+
+.steam:hover {
+    background-color: var(--steam-color);
+    transition: ease-out 0.3s;
+}
+
+.letterbox:hover {
+    background-color: var(--letterbox-color);
+    transition: ease-out 0.3s;
+}
+
+.goodreads:hover {
+    background-color: var(--goodreads-color);
+    transition: ease-out 0.3s;
+}
+
+.storygraph:hover {
+    background-color: var(--storygraph-color);
+    transition: ease-out 0.3s;
 }

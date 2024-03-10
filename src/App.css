@@ -16,6 +16,7 @@
     --letterbox-color: #657181;
     --goodreads-color: #e9e5cd;
     --storygraph-color: #969494;   
+    --anilist-color: #485266;
 }
 
 .App {
@@ -51,7 +52,7 @@ h2 {
     transition: transform 0.3s;
 }
 
-.facebook, .twitter, .instagram, .tiktok, .discord, .linkedin, .github, .youtube, .twitch, .steam, .letterbox, .goodreads, .storygraph {
+.facebook, .twitter, .instagram, .tiktok, .discord, .linkedin, .github, .youtube, .twitch, .steam, .letterbox, .goodreads, .storygraph .anilist{
     background-color: white;
     transition: ease-out 0.3s;
 
@@ -119,5 +120,10 @@ h2 {
 
 .storygraph:hover {
     background-color: var(--storygraph-color);
+    transition: ease-out 0.3s;
+}
+
+.anilist:hover {
+    background-color: var(--anilist-color);
     transition: ease-out 0.3s;
 }

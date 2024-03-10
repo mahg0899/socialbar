@@ -12,6 +12,7 @@ import Steam from "../components/Social/Steam";
 import Letterbox from "../components/Social/Letterbox";
 import Goodreads from "../components/Social/Goodreads";
 import Storygraph from "../components/Social/Storygraph";
+import Anilist from "../components/Social/Anilist";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
         <Letterbox />
         <Goodreads />
         <Storygraph />
+        <Anilist />
       </div>
     </div>
   );
